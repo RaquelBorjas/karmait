@@ -7,6 +7,7 @@
 	--color-hover-morado: #705cf4;
 	--color-input: #eff4fa;
 	--color-letra-input:#1d2124;
+	--fondo-azul:#f5f9ff;
 }
 body{
 	font-family: "Poppins", sans-serif;
@@ -90,6 +91,13 @@ header{
 	font-weight: 700;
 	font-size: 45px;
 	color: var(--color-negro);
+}
+
+.subtitulos{
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: center; 
+	margin-top: 25px;
 }
 
 .ps-3{
@@ -218,8 +226,36 @@ footer li{
 	margin-bottom: 10px;
 }
 
+#clientes{
+	background-color: var(--fondo-azul);
+}
 
+.testimonial{
+	background-color: #fff;
+	padding: 20px 35px;
+}
 
+.testimonial img{
+	width: 100px !important; 
+	border-radius: 100%;
+	margin: auto;
+	margin-top: -70px;
+	margin-bottom: 30px; 
+}
+
+.testimonial h4{
+	text-align: end;
+	font-size: 18px;
+}
+
+#clientes .owl-stage-outer{
+	padding-top: 80px;
+}
+
+.testimonial:hover{
+	transform: translateY(-20px);
+	transition: all 0.3s ease-in-out;
+}
 
 
 
